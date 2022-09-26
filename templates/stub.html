@@ -2,15 +2,21 @@
 {% extends "layouts/base.html" %}
 
 <!- This variable sets name of browser tab  -->
-{% set project = "Stubby" %}
+{% set project = "Personal Links" %}
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Stubby Body</strong></h1>
-        <p class="text-secondary">Kalani Cabral-Omana</p>
+        <h1 class="text-primary"><strong>Personal Links</strong></h1>
+        <p class="text-secondary">I'm Kalani Cabral-Omana and here are some of my personal links. </p>
+
+        </div>
+            <a href= "https://kalanicabralomana.github.io/Fastpages/" class= "btn btn-primary">Click to see my Blog!</a>
+            <a href= "https://github.com/kalanicabralomana" class= "btn btn-primary">Click to see my GitHub!</a>
+        </div>
     </div>
+
 {% endblock %}
 
 <!- This is turning off birds background from base.html -->

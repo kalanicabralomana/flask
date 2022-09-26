@@ -11,12 +11,15 @@
         <h1 class="text-primary"><strong>More about me</strong></h1>
         <p class="text-secondary">I'm Kalani Cabral-Omana and heres one of my most favorite pictures and some of my personal links. </p>
 
-        </div>
-            <img class="card-img-top" src="{{ url_for('static', filename='assets/yoyo.jpg') }}" alt="Koala" height="600">
-            <a href= "https://kalanicabralomana.github.io/Fastpages/" class= "btn btn-primary">Click to see my Blog!</a>
-            <a href= "https://github.com/kalanicabralomana" class= "btn btn-primary">Click to see my GitHub!</a>
+        <div>
+            <img src="{{ url_for('static', filename='assets/koala for csp.png') }}" class="img-thumbnail" alt="...">
+            <img src="{{ url_for('static', filename='assets/yoyo.jpg') }}" class="img-thumbnail" alt="...">
+            <img src="{{ url_for('static', filename='assets/koala popsicle pfp.jpg') }}" class="img-thumbnail" alt="...">
         </div>
     </div>
+    
+    <a href= "https://kalanicabralomana.github.io/Fastpages/" class= "btn btn-primary">Click to see my Blog!</a>
+    <a href= "https://github.com/kalanicabralomana" class= "btn btn-primary">Click to see my GitHub!</a>
 
 {% endblock %}
 
